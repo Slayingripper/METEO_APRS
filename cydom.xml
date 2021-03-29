@@ -92,11 +92,6 @@
       <station_longitude>32.479072</station_longitude>
     </station>
     <station>
-      <station_code>LEFKOSIA</station_code>
-      <station_latitude>35.1643667</station_latitude>
-      <station_longitude>33.3560722</station_longitude>
-    </station>
-    <station>
       <station_code>LIMASSOL</station_code>
       <station_latitude>34.645719</station_latitude>
       <station_longitude>33.003984</station_longitude>
@@ -179,45 +174,820 @@
   </stations>
   <observations>
     <station_code>AGROS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>3.6</observation_value>
+      <observation_value>8.4</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>4.0</observation_value>
+      <observation_value>8.8</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>3.3</observation_value>
+      <observation_value>2.7</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>4.1</observation_value>
+      <observation_value>3.1</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>1.7</observation_value>
+      <observation_value>1.9</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>328</observation_value>
+      <observation_value>35</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
       <observation_name>Direct Solar Radiation</observation_name>
-      <observation_value>4</observation_value>
+      <observation_value>796</observation_value>
       <observation_unit>W/m2</observation_unit>
     </observation>
     <observation>
       <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
+      <observation_value>570</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>50</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>AKAMAS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>16.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>16.8</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>8.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>3.8</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>10</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>47</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>ALONOUDI</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>ATHALASSA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>16.0</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Air Temperature (5cm)</observation_name>
+      <observation_value>20.9</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>16.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>5.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>3.9</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.5</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>301</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>50</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
+      <observation_value>1006.1</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Mean Sea Level)</observation_name>
+      <observation_value>1025.5</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>ATHIENOU</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>15.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>7.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>6.3</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>0.8</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>333</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>50</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>CAVO_GRECO</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>17.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>17.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>7.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>5.7</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>2.0</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>4</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>50</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
+      <observation_value>1017.8</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>CYTASAT</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>17.0</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>17.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>5.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>4.2</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.0</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>348</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>42</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
+      <observation_value>998.3</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Mean Sea Level)</observation_name>
+      <observation_value>1025.7</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>EPTAGONEIA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>15.8</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>1.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>2.7</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.2</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>23</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>35</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.0</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>FRENAROS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Air Temperature (5cm)</observation_name>
+      <observation_value>18.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>15.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>7.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>6.2</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>2.7</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>306</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>549</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>54</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
+      <observation_value>1014.8</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KALAVASOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>17.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>17.9</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>6.0</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>37</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KAMPOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Air Temperature (5cm)</observation_name>
+      <observation_value>11.7</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>1.9</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.2</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>127</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Direct Solar Radiation</observation_name>
+      <observation_value>804</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>53</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KATHIKAS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>12.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>12.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>6.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>58</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (24 hours)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KEPNIC</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KILANI</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>11.7</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>12.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>-0.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>2.0</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>570</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>39</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.0</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KORNOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>16.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>16.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>5.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>45</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>KYPEROUNTA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>5.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>6.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>0.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>4.1</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>634</observation_value>
       <observation_unit>W/m2</observation_unit>
     </observation>
     <observation>
@@ -242,35 +1012,30 @@
     </observation>
     <observation>
       <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
+      <observation_value>0.0</observation_value>
       <observation_unit>mm</observation_unit>
     </observation>
   </observations>
   <observations>
-    <station_code>AKAMAS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>LCLK</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.4</observation_value>
+      <observation_value>16.8</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>9.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>2.7</observation_value>
+      <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>9.0</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>7.3</observation_value>
+      <observation_name>Wind Speed (10m) at Runway 22</observation_name>
+      <observation_value>8.1</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_name>Wind Direction (10m) at Runway 22</observation_name>
       <observation_value>337</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
@@ -291,60 +1056,36 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>60</observation_value>
+      <observation_value>45</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
+      <observation_name>Atmospheric Pressure (QNH)</observation_name>
+      <observation_value>1025.3</observation_value>
+      <observation_unit>hPa</observation_unit>
     </observation>
   </observations>
   <observations>
-    <station_code>ALONOUDI</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>ATHALASSA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>LCPH</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.2</observation_value>
+      <observation_value>17.3</observation_value>
       <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Air Temperature (5cm)</observation_name>
-      <observation_value>5.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>9.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>9.2</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>2.1</observation_value>
-      <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.2</observation_value>
+      <observation_value>0.3</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>287</observation_value>
+      <observation_name>Wind Speed (10m) at Runway 29</observation_name>
+      <observation_value>0.8</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m) at Runway 29</observation_name>
+      <observation_value>44</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
@@ -364,7 +1105,76 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>59</observation_value>
+      <observation_value>48</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (QNH)</observation_name>
+      <observation_value>1025.7</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>LIMASSOL</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>15.8</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>7.6</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m) at Port Gate</observation_name>
+      <observation_value>3.6</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.6</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m) at Port Gate</observation_name>
+      <observation_value>264</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>550</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>40</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -374,46 +1184,41 @@
     </observation>
     <observation>
       <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>1007.6</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Mean Sea Level)</observation_name>
-      <observation_value>1027.5</observation_value>
+      <observation_value>1024.5</observation_value>
       <observation_unit>hPa</observation_unit>
     </observation>
   </observations>
   <observations>
-    <station_code>ATHIENOU</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>LINOU</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>8.4</observation_value>
+      <observation_value>15.1</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>9.0</observation_value>
+      <observation_value>15.4</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>8.3</observation_value>
+      <observation_value>7.7</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>5.7</observation_value>
+      <observation_value>3.6</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.7</observation_value>
+      <observation_value>1.4</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>267</observation_value>
+      <observation_value>343</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
@@ -433,7 +1238,56 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>64</observation_value>
+      <observation_value>50</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
+      <observation_value>977.4</observation_value>
+      <observation_unit>hPa</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>LYSOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>15.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>3.0</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>49</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>52</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -443,26 +1297,164 @@
     </observation>
   </observations>
   <observations>
-    <station_code>CAVO_GRECO</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>MALLIA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.4</observation_value>
+      <observation_value>15.0</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Air Temperature (5cm)</observation_name>
+      <observation_value>14.3</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>9.4</observation_value>
+      <observation_value>15.6</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>8.8</observation_value>
+      <observation_value>2.2</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>4.5</observation_value>
+      <observation_value>3.3</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.3</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>222</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>562</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>38</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>MATHIATIS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>16.1</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>16.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>5.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>3.7</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>1.0</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>327</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Direct Solar Radiation</observation_name>
+      <observation_value>768</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>550</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>46</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.0</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>PAPHOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>18.7</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>19.2</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>9.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>1.4</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
@@ -472,7 +1464,7 @@
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>300</observation_value>
+      <observation_value>189</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
@@ -492,7 +1484,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>68</observation_value>
+      <observation_value>38</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -500,44 +1492,137 @@
       <observation_value>0.00</observation_value>
       <observation_unit>mm</observation_unit>
     </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>1019.4</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
   </observations>
   <observations>
-    <station_code>CYTASAT</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>PAREKLISIA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.7</observation_value>
+      <observation_value>19.6</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>10.3</observation_value>
+      <observation_value>19.7</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>6.4</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>0.9</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Direction (10m)</observation_name>
+      <observation_value>199</observation_value>
+      <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Light Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Medium Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>33</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>PLATANIA</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>9.3</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
       <observation_value>9.6</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>-0.5</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Wind Speed (2m)</observation_name>
+      <observation_value>0.7</observation_value>
+      <observation_unit>m/s</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>52</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
+  <observations>
+    <station_code>POLIS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
+    <observation>
+      <observation_name>Air Temperature (1.2m)</observation_name>
+      <observation_value>18.7</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Max. Temp.</observation_name>
+      <observation_value>19.0</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Extreme Day Min. Temp.</observation_name>
+      <observation_value>7.9</observation_value>
+      <observation_unit>Celcius</observation_unit>
+    </observation>
+    <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.1</observation_value>
+      <observation_value>0.0</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.0</observation_value>
+      <observation_value>0.6</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>334</observation_value>
+      <observation_value>17</observation_value>
       <observation_unit>Degrees</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Direct Solar Radiation</observation_name>
+      <observation_value>830</observation_value>
+      <observation_unit>W/m2</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Global Radiation</observation_name>
+      <observation_value>538</observation_value>
+      <observation_unit>W/m2</observation_unit>
     </observation>
     <observation>
       <observation_name>Recom. Light Work Load</observation_name>
@@ -556,7 +1641,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>56</observation_value>
+      <observation_value>47</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -566,115 +1651,51 @@
     </observation>
     <observation>
       <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>999.9</observation_value>
+      <observation_value>1022.3</observation_value>
       <observation_unit>hPa</observation_unit>
     </observation>
     <observation>
       <observation_name>Atmospheric Pressure (Mean Sea Level)</observation_name>
-      <observation_value>1028.1</observation_value>
+      <observation_value>1025.0</observation_value>
       <observation_unit>hPa</observation_unit>
     </observation>
   </observations>
   <observations>
-    <station_code>EPTAGONEIA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>4.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
+    <station_code>PRODROMOS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>5.2</observation_value>
+      <observation_value>4.3</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>2.8</observation_value>
+      <observation_value>-1.5</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.4</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>314</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>68</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>FRENAROS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>10.9</observation_value>
+      <observation_value>4.1</observation_value>
       <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Air Temperature (5cm)</observation_name>
-      <observation_value>5.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>11.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>10.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.1</observation_value>
-      <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.0</observation_value>
+      <observation_value>2.0</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
+      <observation_name>Wind Speed (10m)</observation_name>
+      <observation_value>6.5</observation_value>
+      <observation_unit>Knots</observation_unit>
+    </observation>
+    <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>285</observation_value>
+      <observation_value>64</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
       <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
+      <observation_value>598</observation_value>
       <observation_unit>W/m2</observation_unit>
     </observation>
     <observation>
@@ -702,1108 +1723,28 @@
       <observation_value>0.00</observation_value>
       <observation_unit>mm</observation_unit>
     </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>1016.5</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
   </observations>
   <observations>
-    <station_code>KALAVASOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <station_code>SAITTAS</station_code>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>9.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>9.1</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>66</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KAMPOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>6.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Air Temperature (5cm)</observation_name>
-      <observation_value>3.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.9</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.8</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>320</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Direct Solar Radiation</observation_name>
-      <observation_value>4</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>71</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KATHIKAS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>6.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>7.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>6.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>72</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (24 hours)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KEPNIC</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KILANI</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>1.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>2.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>1.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>1.0</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>86</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KORNOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>5.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>6.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>5.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>71</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>KYPEROUNTA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>0.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>0.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>0.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>6.3</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>1</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>82</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LCLK</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.5</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.4</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m) at Runway 22</observation_name>
-      <observation_value>4.4</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m) at Runway 22</observation_name>
-      <observation_value>302</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>61</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (QNH)</observation_name>
-      <observation_value>1027.2</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LCPH</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>11.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.7</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m) at Runway 29</observation_name>
-      <observation_value>1.3</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m) at Runway 29</observation_name>
-      <observation_value>50</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>56</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (QNH)</observation_name>
-      <observation_value>1027.2</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LEFKOSIA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>7.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>8.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>7.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.1</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>64</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (24 hours)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LIMASSOL</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>11.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>13.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>11.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m) at Port Gate</observation_name>
-      <observation_value>5.2</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>2.0</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m) at Port Gate</observation_name>
-      <observation_value>33</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>4</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>56</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>1025.5</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LINOU</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>8.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>8.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>8.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>6.0</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>2.3</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>174</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>60</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>978.8</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>LYSOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>6.2</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>6.4</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>26</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>71</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>MALLIA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>5.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Air Temperature (5cm)</observation_name>
-      <observation_value>0.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>5.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>5.2</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.2</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.7</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>37</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>2</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>74</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>MATHIATIS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>6.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>7.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>6.8</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.2</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>274</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Direct Solar Radiation</observation_name>
-      <observation_value>4</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>2</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>68</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.0</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>PAPHOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>11.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
       <observation_value>12.4</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>11.9</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.9</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.5</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>12</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>54</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>PAREKLISIA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>10.2</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>10.3</observation_value>
+      <observation_value>12.6</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>10.0</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>2.3</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>42</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>54</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>PLATANIA</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>0.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>0.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>0.2</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>0.1</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>85</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>POLIS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>10.4</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>10.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>10.0</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>3.7</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>1.7</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>151</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Direct Solar Radiation</observation_name>
-      <observation_value>4</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>68</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>1023.9</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Atmospheric Pressure (Mean Sea Level)</observation_name>
-      <observation_value>1026.7</observation_value>
-      <observation_unit>hPa</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>PRODROMOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>-0.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>-1.3</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>-0.6</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>2.9</observation_value>
-      <observation_unit>m/s</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>11.1</observation_value>
-      <observation_unit>Knots</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>63</observation_value>
-      <observation_unit>Degrees</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
-      <observation_unit>W/m2</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Light Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Medium Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Recom. Heavy Work Load</observation_name>
-      <observation_value>100</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>95</observation_value>
-      <observation_unit>%</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
-      <observation_value>0.00</observation_value>
-      <observation_unit>mm</observation_unit>
-    </observation>
-  </observations>
-  <observations>
-    <station_code>SAITTAS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
-    <observation>
-      <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>6.1</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>6.7</observation_value>
-      <observation_unit>Celcius</observation_unit>
-    </observation>
-    <observation>
-      <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>5.9</observation_value>
+      <observation_value>1.8</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>76</observation_value>
+      <observation_value>53</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -1814,25 +1755,25 @@
   </observations>
   <observations>
     <station_code>TEPAK</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>13.1</observation_value>
+      <observation_value>18.4</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>14.2</observation_value>
+      <observation_value>18.5</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>13.1</observation_value>
+      <observation_value>9.0</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>1.0</observation_value>
+      <observation_value>0.9</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
@@ -1852,7 +1793,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>47</observation_value>
+      <observation_value>31</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -1868,15 +1809,15 @@
   </observations>
   <observations>
     <station_code>TRIPILOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>1.6</observation_value>
+      <observation_value>7.3</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>2.0</observation_value>
+      <observation_value>7.5</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
@@ -1886,12 +1827,12 @@
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>1.5</observation_value>
+      <observation_value>2.8</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>46</observation_value>
+      <observation_value>60</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
@@ -1911,7 +1852,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>92</observation_value>
+      <observation_value>71</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -1922,40 +1863,40 @@
   </observations>
   <observations>
     <station_code>TROODOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>-2.4</observation_value>
+      <observation_value>3.1</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>-2.0</observation_value>
+      <observation_value>3.5</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>-2.5</observation_value>
+      <observation_value>-3.7</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>4.9</observation_value>
+      <observation_value>4.5</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (2m)</observation_name>
-      <observation_value>1.4</observation_value>
+      <observation_value>1.5</observation_value>
       <observation_unit>m/s</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>340</observation_value>
+      <observation_value>5</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>82</observation_value>
+      <observation_value>54</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -1965,31 +1906,31 @@
     </observation>
     <observation>
       <observation_name>Snow Depth</observation_name>
-      <observation_value>6</observation_value>
+      <observation_value>8</observation_value>
       <observation_unit>cm</observation_unit>
     </observation>
     <observation>
       <observation_name>Atmospheric Pressure (Station Level)</observation_name>
-      <observation_value>831.6</observation_value>
+      <observation_value>830.9</observation_value>
       <observation_unit>hPa</observation_unit>
     </observation>
   </observations>
   <observations>
     <station_code>VISITOR</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>9.6</observation_value>
+      <observation_value>17.8</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>10.0</observation_value>
+      <observation_value>18.0</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>9.2</observation_value>
+      <observation_value>5.3</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
@@ -1999,7 +1940,7 @@
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>263</observation_value>
+      <observation_value>280</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
@@ -2019,7 +1960,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>58</observation_value>
+      <observation_value>46</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
@@ -2030,35 +1971,35 @@
   </observations>
   <observations>
     <station_code>XYLIATOS</station_code>
-    <date_time>2021-03-28 22:00 (Local Time)</date_time>
+    <date_time>2021-03-29 09:30 (Local Time)</date_time>
     <observation>
       <observation_name>Extreme Day Max. Temp.</observation_name>
-      <observation_value>7.8</observation_value>
+      <observation_value>11.8</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Extreme Day Min. Temp.</observation_name>
-      <observation_value>7.1</observation_value>
+      <observation_value>6.4</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Air Temperature (1.2m)</observation_name>
-      <observation_value>7.4</observation_value>
+      <observation_value>11.3</observation_value>
       <observation_unit>Celcius</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Speed (10m)</observation_name>
-      <observation_value>2.4</observation_value>
+      <observation_value>2.1</observation_value>
       <observation_unit>Knots</observation_unit>
     </observation>
     <observation>
       <observation_name>Wind Direction (10m)</observation_name>
-      <observation_value>208</observation_value>
+      <observation_value>13</observation_value>
       <observation_unit>Degrees</observation_unit>
     </observation>
     <observation>
       <observation_name>Global Radiation</observation_name>
-      <observation_value>0</observation_value>
+      <observation_value>606</observation_value>
       <observation_unit>W/m2</observation_unit>
     </observation>
     <observation>
@@ -2078,7 +2019,7 @@
     </observation>
     <observation>
       <observation_name>Relative Humidity (1.2m)</observation_name>
-      <observation_value>60</observation_value>
+      <observation_value>51</observation_value>
       <observation_unit>%</observation_unit>
     </observation>
     <observation>
