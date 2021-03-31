@@ -6,7 +6,7 @@ jsonfile = json.loads(open('jsonweather.json').read())
 def fetchweather():
     #use this to filter through the file 
     filtered=list(filter(lambda x:x["station_code"]=="KYPEROUNTA",jsonfile['meteorology']['observations']))
-    if filtered is not None:      
+    if filtered != []:      
         json_string = json.dumps(filtered)
         newjson = json.loads(json_string)
         #values 
