@@ -16,8 +16,11 @@ def fetchweather():
 		rain10m = newjson[0]['observation'][11]['observation_value']
 		rain24h = newjson[0]['observation'][11]['observation_value']
 		pressure = newjson[0]['observation'][12]['observation_value']
-		if int(windirection) <=99 :
+		if 10<=int(windirection)<=99 :
 			windirection = format(windirection,'02')
+			print (windirection)
+		if int(windirection)<10:
+			windirection = format(windirection,'01')
 			print (windirection)
 		rain10m = str(math.trunc(float(rain10m)*10))
 		rain24h = str(math.trunc(float(rain24h)*10))
