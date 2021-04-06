@@ -12,8 +12,8 @@ Stations. They are then pushed to the APRS network using TCP/IP.
 
 ## To Do
 
-[x] Sends data to APRS # [checkbox:checked]
-[x] Pulls data from API # [checkbox:checked]
-[x] Fixes some of the format issues of API # [checkbox:checked] 
-[] Uses TNC to send data # [checkbox:unchecked]
-[] config-file # [checkbox:unchecked]
+- [x] Sends data to APRS # [checkbox:checked]
+- [x] Pulls data from API # [checkbox:checked]
+- [x] Fixes some of the format issues of API # [checkbox:checked] 
+- [] Uses TNC to send data # [checkbox:unchecked]
+- [] config-file # [checkbox:unchecked]
