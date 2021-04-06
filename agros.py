@@ -2,23 +2,21 @@ import aprslib
 import json
 import math
 jsonfile = json.loads(open('jsonweather.json').read())
-
 def fetchweather():
     #use this to filter through the file 
-    filtered=list(filter(lambda x:x["station_code"]=="KYPEROUNTA",jsonfile['meteorology']['observations']))
+    filtered=list(filter(lambda x:x["station_code"]=="AGROS",jsonfile['meteorology']['observations']))
     if filtered != []:      
         json_string = json.dumps(filtered)
         newjson = json.loads(json_string)
         #values 
         temprature = newjson[0]['observation'][0]['observation_value']
-        humidity = newjson[0]['observation'][8]['observation_value']
-        windspeed = newjson[0]['observation'][3]['observation_value']
-        if windirection == newjson[0]['observation'][6]['observation_value'] is not None:
-            windirection = 000
-        if  pressure == newjson[0]['observation'][13]['observation_value'] is not None:
-            pressure = 0000
-        rain10m = newjson[0]['observation'][9]['observation_value']
-        rain24h = newjson[0]['observation'][9]['observation_value']
+        humidity = newjson[0]['observation'][11]['observation_value']
+        windspeed = newjson[0]['observation'][4]['observation_value']
+        windirection = newjson[0]['observation'][5]['observation_value']
+        #if  pressure ==newjson[0]['observation'][13]['observation_value'] is not None:
+        pressure = 0000
+        rain10m = newjson[0]['observation'][12]['observation_value']
+        rain24h = newjson[0]['observation'][12]['observation_value']
         print(temprature,humidity,windspeed,windirection,pressure,rain10m,rain24h)
         rain10m = str(math.trunc(float(rain10m)*10))
         rain24h = str(math.trunc(float(rain24h)*10))
@@ -38,7 +36,7 @@ def sendmypacket(WINDDIRECTION,WINDSPEED,TEMP,HUMIDITY,PRESSURE,RAIN10,RAIN24):
 	AIS.connect()
 	# send a single status message
 	#AIS.sendall("5B4ANU-WX>APRS:>Hello World!")
-	AIS.sendall("5B4CY-13>APDR15,WIDE1-1:=3456.9 N/""03258.9 E_"+WINDDIRECTION+"/0"+WINDSPEED+"g000t"+TEMP+"r00"+RAIN10+"p00"+RAIN24+"P000h"+HUMIDITY+"b"+PRESSURE+"L000")
+	AIS.sendall("5B4CY-13>APDR15,WIDE1-1:=3454.8 N/""0331.9 E_"+WINDDIRECTION+"/0"+WINDSPEED+"g000t"+TEMP+"r00"+RAIN10+"p00"+RAIN24+"P000h"+HUMIDITY+"b"+PRESSURE+"L000")
 	#AIS.sendall("5B4ANU-13>APDR15,WIDE1-1,qAS,5B4ANU:=3506.1 N/03321.5 E_084/002g000t62r000p000P000h29b10251L000")
 def sendfailure():
     AIS = aprslib.IS("5B4CY", passwd="11235", port=14580)
