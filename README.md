@@ -1,6 +1,6 @@
 # METEO APRS
 
-![Alt text](logos\met.png) ![alt](logos\cars.png)
+![Alt text](https://github.com/Slayingripper/METEO_APRS/blob/main/logos/met.png) ![alt](https://github.com/Slayingripper/METEO_APRS/blob/main/logos/cars.png)
 
 Meteo APRS uses the Cyprus Meterological Center's API to query and push data to the APRS Network.
 It downloads the XML file and covrets it to json (For easier handling) and queries the data for specific 
