@@ -51,3 +51,5 @@ To run the program just run the main file :
 - [x] Fixes some of the format issues of API 
 - [ ] Uses TNC to send data 
 - [ ] config-file 
+- [ ] refactoring 
+
