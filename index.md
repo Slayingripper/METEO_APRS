@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# METEO APRS
 
-You can use the [editor on GitHub](https://github.com/Slayingripper/METEO_APRS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Alt text](https://github.com/Slayingripper/METEO_APRS/blob/main/logos/met.png) ![alt](https://github.com/Slayingripper/METEO_APRS/blob/main/logos/cars.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Meteo APRS uses the Cyprus Meterological Center's API to query and push data to the APRS Network.
+It downloads the XML file and covrets it to json (For easier handling) and queries the data for specific 
+Stations. They are then pushed to the APRS network using TCP/IP. 
 
-### Markdown
+## Requirments
+1. Python 3.7 +
+2. Aprslib
+3. Figlet
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Issues to tackle
 
-# Header 1
-## Header 2
-### Header 3
+The "live" XML file provided by the Depratment of Metereology has a major incosistancy issue . For example,when updating the file it would sometimes remove some stations from the list which made using hard coded numbering impossible. One other flaw is that not all stations measure the same information which makes the accuratly  dippicting the area quite difficult . To get around this , data is used from neighbouring stations for example "Humidity" and "Wind Direction" .
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```xml  
+</observation>
+    <observation>
+      <observation_name>Recom. Heavy Work Load</observation_name>
+      <observation_value>100</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Relative Humidity (1.2m)</observation_name>
+      <observation_value>60</observation_value>
+      <observation_unit>%</observation_unit>
+    </observation>
+    <observation>
+      <observation_name>Accumulated Rainfall (10 min.)</observation_name>
+      <observation_value>0.00</observation_value>
+      <observation_unit>mm</observation_unit>
+    </observation>
+  </observations>
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Running
 
-### Jekyll Themes
+To run the program just run the main file : 
+```
+./meteoaprs.py 
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Slayingripper/METEO_APRS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## To Do
 
-### Support or Contact
+- [x] Sends data to APRS
+- [x] Pulls data from API 
+- [x] Fixes some of the format issues of API 
+- [ ] Uses TNC to send data 
+- [ ] config-file 
+- [ ] refactoring 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
